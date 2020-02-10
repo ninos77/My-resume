@@ -16,6 +16,9 @@
 .ui-menu-color-download{
     background-color: #085f13;
 }
+.bg-color-three-reasons{
+    background-color: white;
+}
 /*------------------------Special/paddings/margins/text------------*/
 h1, h1, h3, h4{
     margin: 0;
@@ -30,6 +33,20 @@ h1, h1, h3, h4{
 }
 .inline-block{
     display: inline-block;
+}
+.row-table{
+    display: table;
+}
+.section-column{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+.section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*------------------------Heading------------*/
