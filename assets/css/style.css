@@ -128,7 +128,7 @@ footer{
     -wekit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-.cv-pdf i :hover{
+.cv-pdf i:hover{
     color: #e84610;
 }
 .social-links{
