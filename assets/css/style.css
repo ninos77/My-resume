@@ -19,6 +19,9 @@
 .bg-color-three-reasons{
     background-color: white;
 }
+.bg-color-personal-info{
+    background-color: #f4f4f4;
+}
 /*------------------------Special/paddings/margins/text------------*/
 h1, h1, h3, h4{
     margin: 0;
@@ -169,6 +172,15 @@ footer{
 .social-links li a i:hover{
     background: #e84610;
 }
-#footer details{
+#footer-details{
  padding: 20px;
+}
+/*------------------------Three reasons------------*/
+.three-reasons-icon{
+    font-size: 26px;
+    color: #e67e22;
+
+}
+.three-reasons-heading{
+    margin-bottom: 15px;
 }
