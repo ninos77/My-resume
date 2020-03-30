@@ -70,12 +70,12 @@ margin: 0px;
     margin-left: 50px;
 }
 .logo {
-    background: url("../images/Ninos_resume.jpg");
+    background: url("/assets/images/Ninos_resume.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all 5s ease-in-out;
+    transition: all 6s ease-in-out;
     -moz-transition: all 5s ease-in-out;
     -webkit-transition: all 5s ease-in-out;
 }
