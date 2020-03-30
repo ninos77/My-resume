@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/github_information.js"></script>
     <title>CV</title>
 </head>
 <body>
@@ -48,6 +50,13 @@
 	<section class="container-fluid">
 		<div class="row bg-color-contact">
 			<div class="col">
+            <h3 class="contact-heading uppercase text-center">View My Github Projects</h3>
+            <h5 class="uppercase text-center">You Can also search on other users profiles</h5>
+            <div class="center-form">
+              <input type="text" id="gh-username" value="ninos77" oninput="fetchGitHubInformation()"/>
+              <div id="gh-user-data"></div>
+              <div id="gh-repo-data"></div>
+            </div>
 
 			</div>
 		</div>
