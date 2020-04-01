@@ -14,5 +14,5 @@ function sendMail(contactForm){
             console.log("FAILED",error);
     });
     
-    return  false;
+    window.location.href = window.location.href;
 }
