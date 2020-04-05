@@ -9,10 +9,11 @@ function sendMail(contactForm){
     
     .then(function(response){
         console.log("SUCCESS", response);
+        
     },
     function(error){
             console.log("FAILED",error);
     });
-    
-    window.location.href = window.location.href;
+   
+    return false;
 }
