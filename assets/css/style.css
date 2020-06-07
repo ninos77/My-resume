@@ -476,6 +476,12 @@ img {
   max-width: 550px;
   margin-bottom: 15px;
 }
+.flex-wrapper{
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+  justify-content: space-between
+}
 
 #gh-submit {
   display: inline-block;
@@ -520,7 +526,7 @@ img {
 /*-------------End GitHup-----------------------------*/
 /*------------------------Media Queries------------*/
 @media(min-width:992px){
-    .center-form{
+.center-form{
     padding-top: 30px;
     min-height: 240px;
     margin: 0 auto;

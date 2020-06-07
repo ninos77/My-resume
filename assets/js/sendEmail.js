@@ -9,6 +9,7 @@ function sendMail(contactForm){
     
     .then(function(response){
         console.log("SUCCESS", response);
+        window.location.href = "contact-response-msg.html";
         
     },
     function(error){
