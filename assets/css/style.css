@@ -61,7 +61,9 @@ h1, h1, h3, h4{
     margin-top: 25px;
     margin-bottom: 40px;
 }
-
+.show-more{
+    font-size: 14px;
+}
 /*------------------------Heading------------*/
 header{
 margin: 0px;
@@ -243,18 +245,7 @@ footer{
 
 }
 /*------------------------Work History------------*/
-button.btn.collapsed:before
-{
-    content:'+' ;
-    display:block;
-    width:15px;
-}
-button.btn:before
-{
-    content:'-' ;
-    display:block;
-    width:15px;
-}
+
 .history-heading{
     color: #fafafa;
     margin-bottom: 40px;

@@ -6,7 +6,7 @@ $('[data-toggle="collapse"]').click(function() {
   if ($(this).hasClass("active")) {
     $(this).text("Show Less");
   } else {
-    $(this).text("Show More");
+    $(this).text("Show More>>");
   }
 });
   
