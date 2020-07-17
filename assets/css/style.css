@@ -243,6 +243,18 @@ footer{
 
 }
 /*------------------------Work History------------*/
+button.btn.collapsed:before
+{
+    content:'+' ;
+    display:block;
+    width:15px;
+}
+button.btn:before
+{
+    content:'-' ;
+    display:block;
+    width:15px;
+}
 .history-heading{
     color: #fafafa;
     margin-bottom: 40px;

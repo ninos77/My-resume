@@ -1,12 +1,5 @@
-$(document).ready(function() {
-
-  
-$('[data-toggle="collapse"]').click(function() {
-  $(this).toggleClass( "active" );
-  if ($(this).hasClass("active")) {
-    $(this).text("Read More");
-  } else {
-    $(this).text("Read Less");
-  }
-});
-});
+function handleClick()
+{
+    this.value = (this.value == 'Read More' ? 'Read Less' : 'Read More');
+}
+document.getElementById('collapsible').onclick=handleClick;
