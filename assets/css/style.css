@@ -64,6 +64,10 @@ h1, h1, h3, h4{
 .show-more{
     font-size: 14px;
 }
+div.achiv ul li {
+    list-style-type:disc;
+    display : list-item
+}
 /*------------------------Heading------------*/
 header{
 margin: 0px;
@@ -89,6 +93,14 @@ margin: 0px;
     margin-top: 50px;
 }
 .title{
+    font-family: "Roboto",sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+.profile{
     font-family: "Roboto",sans-serif;
     font-weight: 200;
     font-size: 28px;
