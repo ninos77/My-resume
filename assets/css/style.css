@@ -61,6 +61,10 @@ h1, h1, h3, h4{
     margin-top: 25px;
     margin-bottom: 40px;
 }
+.educa{
+    padding:auto;
+    margin: auto; 
+}
 .show-more{
     font-size: 14px;
 }
@@ -91,6 +95,22 @@ margin: 0px;
     font-size: 46px;
     color: #fff;
     margin-top: 50px;
+}
+.educa-ski{
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.code-institute{
+    font-style: italic;
+    font-weight: bold;
+    color: #f05323
+
+}
+.learnd{
+    font-style: italic;
+    font-weight: bold; 
 }
 .title{
     font-family: "Roboto",sans-serif;
@@ -548,6 +568,7 @@ img {
     max-width: 50%;
 }
 
+
 }
 
 
@@ -573,6 +594,10 @@ body {
     width: 100%;
     padding: 4em 0 1em 0;
   }
+  .educa{
+    padding-left:50px;
+    margin-left: 40px; 
+}
 }
 .timeline:before {
   position: absolute;
