@@ -1,18 +1,19 @@
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 3,
-        center: { lat: 59.332580, lng: 18.064900 }
+        center: { lat: 59.3758, lng: 17.9412 }
     });
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var locations = [
-        { lat: 59.346579, lng: 18.033870 }
+        { lat: 59.3758, lng: 17.9412 }
     ];
 
     var markers = locations.map(function(location, i) {
         return new google.maps.Marker({
             position: location,
+            title:"Rissne",
             label: labels[i % labels.length]
         });
     });
