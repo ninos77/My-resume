@@ -805,6 +805,10 @@ body {
     margin: 4px 0 0 0;
     z-index: 14;
   }
+.value p{
+    padding-left: 10px;
+    color: red;
+}
 }
 .time-wrapper .time {
   display: inline-block;
