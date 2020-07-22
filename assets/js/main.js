@@ -13,3 +13,13 @@ $('[data-toggle="collapse"]').click(function() {
   
 // document ready  
 });
+
+  function toggleLanguage(language) {
+    let description = document.getElementById("description");
+    if (language === "Swedish") {
+        window.location.href="se/index.html";
+    }
+    else {
+      window.location.href="/index.html";
+    }
+  }

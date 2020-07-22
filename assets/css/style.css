@@ -34,6 +34,12 @@
 .bg-color-contact{
     background-color: #fff;
 }
+.lan-option{
+    color: #fff;
+}
+.lan-option:hover{
+    color: rgb(223, 223, 223);
+}
 /*------------------------Special/paddings/margins/text------------*/
 h1, h1, h3, h4{
     margin: 0;
@@ -74,6 +80,14 @@ h1, h1, h3, h4{
 div.achiv ul li {
     list-style-type:disc;
     display : list-item;
+}
+.dropdown ul li{
+  padding-bottom: 10px;
+
+}
+.dropdown ul li a{
+  text-decoration: none;
+  color: black;
 }
 /*------------------------Heading------------*/
 header{
@@ -807,7 +821,6 @@ body {
   }
 .value p{
     padding-left: 10px;
-    color: red;
 }
 }
 .time-wrapper .time {
