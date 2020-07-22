@@ -89,6 +89,14 @@ div.achiv ul li {
   text-decoration: none;
   color: black;
 }
+
+.drop-cust{
+  position: relative;
+  display: inline-block;
+  left:75%;
+  top:10px; 
+}
+
 /*------------------------Heading------------*/
 header{
 margin: 0px;
@@ -615,6 +623,22 @@ body {
     padding-left:50px;
     margin-left: 40px; 
 }
+.drop-cust{
+  position: relative;
+  display: inline-block;
+  left:60%;
+  top:10px; 
+}
+}
+@media (max-width: 400px) {
+.drop-cust{
+  position: relative;
+  display: inline-block;
+  left:50%;
+  top:10px; 
+}
+
+
 }
 .timeline:before {
   position: absolute;
