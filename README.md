@@ -1,35 +1,52 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# My Resume
+This website is My Resume.
 
-Welcome ninos77,
+## UX
+In general, this website presents information about Me (COMPETENCE,PORTFOLIOS, GitHub).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Existing Features
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features Left to Implement
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Expose*,
+## Technologies Used
+- Codeinstitute: materials and homework and projector during the lesson.
+- HTML: by using HTML language to markup web pages in this project.
+- CSS: to perform style for the WepApp.
+- FontAwesome: to perform font and icon.
+- bootstrap 4: to perform responsive for the WepApp.
+- JavaScript and jQuery to perform:
+    1. The active class for the navbar links.
+    2. Data-Countdown for events.
+    3. Sticky-Header.
+    4. Mobile Navigation(navbar responsive for the mobile).
+    5. Back to top: When you are at the bottom of a page, there is a button that will take you to the top of the page.
+    6. Send Email.
+    7. Google map.
+-  Websites like: (**Stackoverflow**, **css-tricks**, **w3schools**, **betalamedswish**, **github**, **youtube**).
+-  API:
+    - EmailJS: to send email.
+    - Google: to get the address location on the map.
 
-Another blue button should appear to click: *Open Browser*.
+## Testing
+I have tested the web page with my mentor. Initially, I got some feedback and I made a little changes
+- Make code more formatted.
+- Reduce the comments.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+I have tested the web page on different browsers and screen sizes and its works.
 
-A blue button should appear to click: *Expose*,
 
-Another blue button should appear to click: *Open Browser*.
+## Deployment
+I have chosen to deployed my project in github pages.
+Why GitHub Pages? GitHub Pages offers a lot of features and flexibility, all for free. Some of the benefits include:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+- Easy setup.
+- Good cooperation and communication using Git and GitHub.
+- Free hosting with >95% uptime.
+- Live updating with normal GitHub workflow.
 
-## Updates Since The Instructional Video
+### How To Deployment On GitHub Pages ?
+In GitHub, navigate to my **username.github.io** repository and click **Settings**. Within **Settings**, navigate to the **Source** section within the **Github Pages** section. 
+From the dropdown menu, select **master branch**. Now, all of may repositories can be found at http://username.github.io/repository-name.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
